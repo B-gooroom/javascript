@@ -1,6 +1,6 @@
 ## colour_board project.
 
-- when? 2021. 05. 24 ~
+-- when? 2021. 05. 24 ~
 
 - what? colour_board 
 

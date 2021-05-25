@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colour_Board</title>
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">
+      Colour_Board
+      <button class="head-login" onclick="modalToggle()">login</button>
+    </a>
+  </header>
+  <div class="contents">
+    <h1>hi :D</h1>
+  </div>
+  <footer>© 2021. colour Co. all rights reserved.</footer>
+  <div class="modal-background"  onclick="modalToggle()">
+    <form class="modal" onclick="event.stopPropagation()">
+      <div class="modal-content">
+        <div class="loginBox" name="loginBox"></div>
+          <div class="boxLeft">
+            <input type="text" name="email" id="email" placeholder="ID(E-MAIL)">
+            <input type="password" name="pwd" id="pwd" placeholder="PASSWORD">
+          </div>
+          <div class="boxRight"></div>
+            <button class="loginBtn">LOGIN</button>
+        <div class="signupBox"></div>
+          <button class="signupBtn">Join Colour_Board</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
+<script>
+const modalToggle = function() {
+  document.body.classList.toggle('o-hidden');
+  document.getElementsByClassName('modal-background')[0].classList.toggle('active');
+  
+}
+</script>

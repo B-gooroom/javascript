@@ -10,7 +10,7 @@
 3. copy the colour code when onclick the colour chip
 4. add) typography tap
 
-  
+
 2021. 05. 25 ~
 - index.html markup 1st & css 
   1. index.html

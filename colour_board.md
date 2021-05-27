@@ -22,3 +22,10 @@
 * 순수 html/css/js로 구현하는 방법이 검색이 힘들다
 > to-be:
 > css를 열심히 공부해야한다!
+
+### 0527 ~
+ body markup & colours tag >> palatte 구현
+ 1. colour palatte (canvas에서 div로 수정, canvas text 구현 hard(vue/react에서는 쉽게 구현가능))
+ <img width="500" height="500" alt="스크린샷 2021-05-28 02 25 49" src="https://user-images.githubusercontent.com/79742210/119870212-10854d00-bf5c-11eb-8beb-a353d4673b6a.png">
+ 2. add colour palatte hover
+ 

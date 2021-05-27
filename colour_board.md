@@ -26,6 +26,6 @@
 ### 0527 ~
  body markup & colours tag >> palatte 구현
  1. colour palatte (canvas에서 div로 수정, canvas text 구현 hard(vue/react에서는 쉽게 구현가능))
- <img width="500" height="500" alt="스크린샷 2021-05-28 02 25 49" src="https://user-images.githubusercontent.com/79742210/119870212-10854d00-bf5c-11eb-8beb-a353d4673b6a.png">
+<img width="500" height="500" alt="스크린샷 2021-05-28 03 16 22" src="https://user-images.githubusercontent.com/79742210/119876828-42e67880-bf63-11eb-85e5-44687af7315e.png">
  2. add colour palatte hover
  

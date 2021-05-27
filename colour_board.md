@@ -25,9 +25,12 @@
 
 ### 0527 ~
  body markup & colours tag >> palatte 구현
- 1. colour palatte (canvas에서 div로 수정, canvas text 구현 hard(vue/react에서는 쉽게 구현가능))
+ 1. colour palatte 
 <img width="500" height="500" alt="스크린샷 2021-05-28 03 16 22" src="https://user-images.githubusercontent.com/79742210/119876828-42e67880-bf63-11eb-85e5-44687af7315e.png">
  2. add colour palatte hover(CSS)
- <img width="300" alt="스크린샷 2021-05-28 03 14 54" src="https://user-images.githubusercontent.com/79742210/119877669-48908e00-bf64-11eb-9a5b-9a81899efda2.png"><img width="300" alt="스크린샷 2021-05-28 03 14 24" src="https://user-images.githubusercontent.com/79742210/119877761-6231d580-bf64-11eb-800b-460f1ba9c03e.png"><img width="300" alt="스크린샷 2021-05-28 03 14 41" src="https://user-images.githubusercontent.com/79742210/119877851-7e357700-bf64-11eb-9f9f-a94ea9671ced.png">
+ <img width="300" alt="스크린샷 2021-05-28 03 14 54" src="https://user-images.githubusercontent.com/79742210/119877669-48908e00-bf64-11eb-9a5b-9a81899efda2.png">
+ <img width="300" alt="스크린샷 2021-05-28 03 14 24" src="https://user-images.githubusercontent.com/79742210/119877761-6231d580-bf64-11eb-800b-460f1ba9c03e.png">
+ <img width="300" alt="스크린샷 2021-05-28 03 14 41" src="https://user-images.githubusercontent.com/79742210/119877851-7e357700-bf64-11eb-9f9f-a94ea9671ced.png">
 
- 
+* colour palatte >> canvas에서 div로 수정, canvas text 구현 hard(vue/react에서는 쉽게 구현가능)
+ ss

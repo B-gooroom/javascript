@@ -32,5 +32,9 @@
  <img width="300" alt="스크린샷 2021-05-28 03 14 24" src="https://user-images.githubusercontent.com/79742210/119877761-6231d580-bf64-11eb-800b-460f1ba9c03e.png">
  <img width="300" alt="스크린샷 2021-05-28 03 14 41" src="https://user-images.githubusercontent.com/79742210/119877851-7e357700-bf64-11eb-9f9f-a94ea9671ced.png">
 
-* colour palatte >> canvas에서 div로 수정, canvas text 구현 hard(vue/react에서는 쉽게 구현가능)
- ss
+* colour palatte >> canvas에서 div로 수정, canvas text 구현 hard(vue/react에서는 쉽게 구현가능)<br>
+ hover(CSS)로 마우스오버시 #hexcode로 출력
+* colour palatte 부분 js로 구현시켜보고 싶다 + copy
+* study CSS
+> to-be:
+> CSS - JS 구현 기능들 추가!

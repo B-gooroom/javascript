@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colour_Board</title>
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <link href="./index.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js"></script>
+  <script defer src="./index.js"></script>
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">
+      Colour_Board
+    </a>
+    <button class="head-login" name="head-login" onclick="modalToggle()">login</button>
+  </header>
+  <div class="contents">
+    <h1>hi :D</h1>
+  </div>
+  <!-- <div id="aditor">
+    <textarea class="textarea"></textarea>
+    <div></div>
+  </div> -->
+  <div class="canvas">
+    <div id="canvas1"><span>palatte #1</span></div>
+    <div id="canvas2"><span>palatte #2</span></div>
+    <div id="canvas3"><span>palatte #3</span></div>
+  </div>
+  </div>
+  <footer>© 2021. colour Co. all rights reserved.</footer>
+  <div class="modal-background" name="modal-background" onclick="modalToggle()">
+    <form class="modal" onclick="event.stopPropagation()">
+      <div class="modal-content" id="modal-content">
+        <div class="loginBox" name="loginBox">
+          <div class="boxLeft">
+            <input type="text" name="email" id="email" placeholder="ID(E-MAIL)">
+            <input type="password" name="pwd" id="pwd" placeholder="PASSWORD">
+          </div>
+          <div class="boxRight">
+            <button class="loginBtn">LOGIN</button>
+          </div>
+        </div>
+        <div class="signupBox">
+          <button type="button" class="signupBtn" onclick="window.open('join.html')">Join to Colour_Board</button>
+          <!-- <button type="button" class="signupBtn" onclick="location.href='join.html'">Join to Colour_Board</button> -->
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

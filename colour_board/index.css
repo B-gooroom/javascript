@@ -16,7 +16,7 @@ a:visited {
   text-decoration: none;
 }
 header {
-  background-color: darkslategrey;
+  background-color: darkgray;
   padding: 5px 5px;
   font-size: 1.5rem;
   min-height: 35px;
@@ -31,10 +31,9 @@ header a:visited {
   font-weight: normal;
   padding: 2px;
 }
-
 .head-login {
-  border: 1px darkslategrey;
-  background-color: darkslategrey;
+  border: 1px darkgray;
+  background-color: darkgray;
   color: floralwhite;
   font-size: 20px;
   padding: 2px;
@@ -49,8 +48,77 @@ header a:visited {
 .contents {
   text-align: center;
 }
+h1 {
+  top: 20px;
+}
+#aditor {
+  /* background-color: rgba(19, 73, 32, 0.685); */
+  min-width: 100vh;
+  display: flex;
+}
+#aditor > textarea {
+  background-color: whitesmoke;
+}
+#canvas1:hover,
+#canvas2:hover,
+#canvas3:hover {
+  /* animation-play-state: none; */
+  background-color: white;
+  color: navy;
+}
+#canvas1:hover span,
+#canvas2:hover span,
+#canvas3:hover span {
+  display: none;
+}
+#canvas1:hover::before {
+  content: "#8a2be2";
+}
+#canvas2:hover::before {
+  content: "#6495ed";
+}
+#canvas3:hover::before {
+  content: "#008080";
+}
+
+#canvas1 {
+  border: 1px solid silver;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 29%;
+  background-color: #8a2be2;
+  color: white;
+  text-align: center;
+}
+#canvas2 {
+  border: 1px solid silver;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 44%;
+  background-color: #6495ed;
+  color: white;
+  text-align: center;
+}
+#canvas3 {
+  border: 1px solid silver;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+  left: 59%;
+  background-color: #008080;
+  color: white;
+  text-align: center;
+}
 footer {
-  background-color: darkslategray;
+  background-color: darkgray;
   color: white;
   min-height: 18px;
   padding: 6px;
@@ -64,27 +132,47 @@ footer {
   display: none;
 }
 .modal-background.active {
-  position: fixed;
   background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
 }
-.modal {
+.modal-background.active {
+  display: block;
+}
+#modal-content {
   background-color: white;
   border-radius: 3px;
   width: 400px;
-  height: 100px;
+  height: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
-  padding: 13px;
+  padding: 12px;
+}
+.modal-content .loginBox {
+  display: flex;
+  justify-content: space-between;
+}
+.loginBox {
+  margin-bottom: 15px;
 }
 .boxLeft,
 .boxRight {
   display: inline-block;
-  padding: 5px;
+  padding: 0%;
+}
+.boxLeft {
+  width: 270px;
+  height: 60px;
 }
 #email,
 #pwd {
@@ -97,6 +185,7 @@ footer {
   width: 250px;
   height: 20px;
   margin: 5px;
+  padding: 1px;
   border: none;
 }
 #email,
@@ -104,16 +193,12 @@ footer {
   display: block;
 }
 .loginBtn {
-  width: 120px;
+  width: 110px;
   height: 60px;
   background-color: black;
   color: white;
   border: none;
   position: relative;
-}
-.loginBtn {
-  position: absolute;
-  right: 32.6%;
 }
 .signupBtn {
   width: 400px;
